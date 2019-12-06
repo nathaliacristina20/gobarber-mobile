@@ -4,7 +4,7 @@
             "outputFile": "/home/nathalia/github/gobarber-mobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/6ac490888941f16ffd237f685e8e101b/res/values-v16/values-v16.xml",
+                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/9aeaa41a2ce89a998ec67696a8c6fa2e/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/832b70322dcf27c71e0319113a68a15d/res/values-v16/values-v16.xml",
+                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/baa7a086b1b6855bde58f8c039c5ccbb/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

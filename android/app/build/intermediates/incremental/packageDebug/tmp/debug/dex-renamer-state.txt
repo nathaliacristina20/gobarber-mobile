@@ -1,4 +1,4 @@
-#Thu Dec 05 22:21:02 BRST 2019
+#Thu Dec 05 22:58:21 BRST 2019
 base.0=/home/nathalia/github/gobarber-mobile/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

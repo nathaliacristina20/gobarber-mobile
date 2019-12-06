@@ -4,13 +4,13 @@
             "outputFile": "/home/nathalia/github/gobarber-mobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/6ac490888941f16ffd237f685e8e101b/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/9aeaa41a2ce89a998ec67696a8c6fa2e/res/values-night-v8/values-night-v8.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "120,204,288,384,486,588,682"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
                     }
                 }
             ]

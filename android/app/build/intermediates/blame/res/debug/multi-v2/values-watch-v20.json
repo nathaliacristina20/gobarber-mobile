@@ -4,7 +4,7 @@
             "outputFile": "/home/nathalia/github/gobarber-mobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/6ac490888941f16ffd237f685e8e101b/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/nathalia/.gradle/caches/transforms-2/files-2.1/9aeaa41a2ce89a998ec67696a8c6fa2e/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
