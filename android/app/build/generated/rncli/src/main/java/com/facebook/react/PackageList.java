@@ -22,6 +22,8 @@ import com.BV.LinearGradient.LinearGradientPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -70,7 +72,8 @@ public class PackageList {
       new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
       new ReanimatedPackage(),
-      new RNScreensPackage()
+      new RNScreensPackage(),
+      new VectorIconsPackage()
     ));
   }
 }

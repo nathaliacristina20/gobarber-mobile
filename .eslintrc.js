@@ -35,7 +35,8 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': 'off',
     'react/sort-comp': 'off',
-    'react/no-unused-state': 'off'
+    'react/no-unused-state': 'off',
+    'react/jsx-props-no-spreading': 'off'
   },
   settings: {
       'import/resolver': {
