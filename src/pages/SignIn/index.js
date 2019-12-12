@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Image } from 'react-native';
-
+import { useDispatch, useSelector } from 'react-redux';
 import Background from '~/components/Background';
 import logo from '~/assets/logo.png';
 
@@ -13,10 +13,18 @@ import {
     SignLinkText,
 } from './styles';
 
-export default function SignIn({ navigation }) {
-    const passWordRef = useRef();
+import { signInRequest } from '~/store/modules/auth/actions';
 
-    function handleSubmit() {}
+export default function SignIn({ navigation }) {
+    const dispatch = useDispatch();
+    const passWordRef = useRef();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const loading = useSelector(state => state.auth.loading);
+
+    function handleSubmit() {
+        dispatch(signInRequest(email, password));
+    }
 
     return (
         <Background>
@@ -32,6 +40,8 @@ export default function SignIn({ navigation }) {
                         placeholder="Digite seu e-mail"
                         returnKeyType="next"
                         onSubmitEditing={() => passWordRef.current.focus()}
+                        value={email}
+                        onChangeText={setEmail}
                     />
                     <FormInput
                         icon="lock-outline"
@@ -40,8 +50,12 @@ export default function SignIn({ navigation }) {
                         ref={passWordRef}
                         returnKeyType="send"
                         onSubmitEditing={handleSubmit}
+                        value={password}
+                        onChangeText={setPassword}
                     />
-                    <SubmitButton onPress={handleSubmit}>Acessar</SubmitButton>
+                    <SubmitButton loading={loading} onPress={handleSubmit}>
+                        Acessar
+                    </SubmitButton>
                 </Form>
 
                 <SignLink onPress={() => navigation.navigate('SignUp')}>
